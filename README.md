@@ -3,13 +3,17 @@ Project Overview
 This project aims to build a web scraper to collect restaurant information in Macapá, including their menus, popular dishes, and customer reviews. The data is stored in a SQLite database and can be accessed via an AI-powered chatbot that answers questions about restaurants, their menus, and local dishes.
 
 Key Features:
+
 Web Scraping: Retrieves restaurant names, menus, ratings, and reviews from platforms like iFood and TripAdvisor.
+
 Data Storage: Saves the collected data into a SQLite database for easy access.
+
 NLP Chatbot: A chatbot that uses natural language processing (NLP) to respond to queries about Macapá restaurants, menus, and popular local dishes.
+
 Sentiment Analysis: Analyze customer reviews to provide insights into the quality of service.
+
 Project Structure
-bash
-Copy code
+
 |-- data/                  # Folder to store raw and cleaned datasets
 |-- db/                    # Folder containing the SQLite database
 |-- src/                   # Source code
